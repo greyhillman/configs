@@ -3,6 +3,7 @@
 # Move config files in here first
 cp ~/.vimrc .
 cp ~/.tmux.conf .
+cp ~/.bash_aliases .
 
 # Add all the files to be tracked by git
 git add -A
