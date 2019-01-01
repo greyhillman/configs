@@ -1,0 +1,5 @@
+[user]
+	email = infogreytech@gmail.com
+	name = Grey Hill
+[core]
+	editor = nvim

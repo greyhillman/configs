@@ -1,1 +1,1 @@
-alias python="python3.5"
+alias vim="nvim"
