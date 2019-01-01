@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# symlinks have to use absolute paths for the target
 configs=$(realpath .)
 
 ln -s $configs/.bash_aliases ~/.bash_aliases
