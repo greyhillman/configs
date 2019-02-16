@@ -1,3 +1,22 @@
+" Using Vundle to handle vim plugins
+set nocompatible
+filetype off
+
+" To Install plugins, run :PluginInstall
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Get support for Nix
+Plugin 'LnL7/vim-nix'
+
+" Haskell and Cabal syntax highlighting
+Plugin 'neovimhaskell/haskell-vim'
+
+call vundle#end()
+
+
+
+
 " Use Escape for getting out of Terminal mode
 tnoremap <Esc> <C-\><C-n>
 
@@ -32,3 +51,4 @@ syntax on " Enable syntax highlighting
 filetype on " Enable filetype detection
 filetype plugin on " Load plugin files for specific file types
 filetype indent on " Load indent files for specific file types
+filetype plugin indent on " Load indent files for plugins based on file type
