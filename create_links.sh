@@ -6,6 +6,7 @@ configs=$(realpath .)
 ln -s $configs/.bash_aliases ~/.bash_aliases
 ln -s $configs/.gitconfig ~/.gitconfig
 ln -s $configs/.tmux.conf ~/.tmux.conf
+ln -s $configs/.profile ~/.profile
 
 
 # For files in the .config directory
