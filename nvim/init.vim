@@ -6,6 +6,9 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Let Vundle handle itself
+Plugin 'VundleVim/Vundle.vim'
+
 " Get support for Nix
 Plugin 'LnL7/vim-nix'
 
