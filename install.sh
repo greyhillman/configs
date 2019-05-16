@@ -6,4 +6,5 @@ sudo add-apt-repository ppa:indicator-multiload/stable-daily
 sudo apt update
 sudo apt install indicator-multiload
 
-
+sudo apt install git
+sudo apt install tree
