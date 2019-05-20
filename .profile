@@ -25,7 +25,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-if [ -e /home/home-work/.nix-profile/etc/profile.d/nix.sh ]; then . /home/home-work/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 # set PATH so it includes cabal's private bin if it exists
 if [ -d "$HOME/.cabal/bin" ]; then
